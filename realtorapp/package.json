@@ -1,0 +1,22 @@
+{
+  "name": "realtorapp",
+  "homepage": "https://andresespinoza1999.github.io/RealtorApp/",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
